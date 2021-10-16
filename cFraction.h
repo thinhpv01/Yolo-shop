@@ -21,9 +21,6 @@ public:
 	cFraction operator*(int);
 	cFraction operator/(int);
 	friend cFraction operator+(int, const cFraction&);
-	friend cFraction operator-(int, const cFraction&);
-	friend cFraction operator/(int, const cFraction&);
-	friend cFraction operator*(int, const cFraction&);
 	cFraction& operator--();
 	cFraction& operator++();
 	cFraction operator--(int);

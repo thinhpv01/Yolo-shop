@@ -1,11 +1,7 @@
-#pragma once
-
 #include <iostream>
 #include <string>
 using namespace std;
-
-class cDate
-{
+class cDate{
 public:
 	cDate();
 	cDate(const cDate& date);
@@ -16,7 +12,6 @@ public:
 	void input();
 	string getFormat();
 	bool is_in_month(int month);
-
 private:
 	int Day;
 	int Month;

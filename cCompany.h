@@ -1,17 +1,12 @@
-#pragma once
-
 #include "cDailyWorker.h"
 #include "cProductionEmployee.h"
 #include <iostream>
 #include <vector>
 using namespace std;
-
-class cCompany
-{
+class cCompany{
 public:
 	cCompany();
 	~cCompany();
-
 	void input();
 	void show();
 	float calc_sum_salary();
@@ -21,7 +16,6 @@ public:
 	cEmployee* find_an_employee_with_id();
 	vector<cEmployee*> find_all_employees_with_full_name();
 	int count_all_employees_having_birthday_in_month(int month = 5);
-
 private:
 	vector<cEmployee*> Employees;
 };
